@@ -4,7 +4,7 @@ module.exports = {
 	entry: './index.js',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
-		filename: 'Multipart.min.js',
+		filename: 'FormData.min.js',
 		library: 'library',
 		libraryTarget: 'umd'
 	},

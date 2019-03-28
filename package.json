@@ -1,24 +1,21 @@
 {
-  "name": "wx-multipart",
+  "name": "wx-form-data",
   "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "test": "mocha",
-    "start": "webpack --output-path  ./examples/wx_demo/utils  --config webpack.config.js&node ./examples/backend/index.js",
     "lint": "eslint .",
     "fix": "eslint . --fix"
   },
   "author": "supperchong@gmail.com",
   "eslintConfig": {
     "globals": {
-      "wx": true,
-      "Page": true,
-      "getApp": true
+      "wx": true
     }
   },
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@babel/cli": "^7.2.3",
     "mime-types": "^2.1.21"
